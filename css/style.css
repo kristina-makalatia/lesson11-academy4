@@ -1,0 +1,95 @@
+.flex-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.box-child:first-child {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+}
+.box-child:nth-child(2) {
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+}
+.box-child:nth-child(3){
+	background-color: green;
+	width: 300px;
+	height: 300px;
+}
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.flex-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.image-block img {
+	width: 270px;
+}
+.image-block:nth-child(1),
+.image-block:nth-child(2),
+.image-block:nth-child(3),
+.image-block:nth-child(4) {
+	margin-bottom: 35.5px;
+}
+
+/*Form*/
+.input-wraper {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid red;
+	margin-top: 15px;
+	color: blue;
+	font-size: 18px;
+}
+.input-wraper::placeholder {
+	color: aqua;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.input-wraper:focus {
+	outline: none;
+}
+.textarea-wraper:focus {
+	outline: none;
+}
+.textarea-wraper::placeholder {
+	color: aqua;
+	font-size: 20px;
+	padding-left: 10px;
+}
+/*input[type=password] {
+	width: 100%;
+}*/
+.btn {
+	background-color: yellow;
+	padding: 10px;
+	border: none;
+	width: 300px;
+}
+.button-flex {
+	display: flex;
+	justify-content: center;
+}
+.form-wraper {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+}
+.textarea-wraper {
+	width: 100%;
+	resize: none;
+	height: 100px;
+	border: none;
+	border-bottom: 2px solid red;
+	margin-top: 15px;
+	color: blue;
+	font-size: 18px;
+}
+.forms {
+	margin-bottom: 15px;
+}
